@@ -6,7 +6,7 @@ import translators as ts
 if __name__ == '__main__':
 
     copied = pyperclip.paste()
-    print(f'Text to be translated: {copied}')
+    print(f'    Text to be translated: {copied}')
 
     try:
         translation = ts.google(copied, to_language='it')
@@ -21,7 +21,7 @@ if __name__ == '__main__':
         except:
             pass
 
-    print(f'Translation: {translation}')
+    print(f'    Translation: {translation}')
 
     print('\n')
     print('\n')
