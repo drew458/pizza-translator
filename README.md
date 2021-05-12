@@ -1,5 +1,5 @@
 # pizza-translator
-A simple scripts that retrieves text from clipboard (a.k.a the CTRL+C boi) and translates it in Italian.  
+A simple script that retrieves text from clipboard (a.k.a the CTRL+C boi) and translates it in Italian.  
 It automatically detects the languange from which you want to translate.
 
 # Prerequisites
