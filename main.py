@@ -3,8 +3,8 @@ import pyperclip
 from translate import Translator
 import translators as ts
 
-if __name__ == '__main__':
 
+def main():
     copied = pyperclip.paste()
     print(f'    Text to be translated: {copied}')
 
@@ -26,3 +26,7 @@ if __name__ == '__main__':
     print('\n')
     print('\n')
     input("Press enter to exit.")
+
+
+if __name__ == '__main__':
+    main()
