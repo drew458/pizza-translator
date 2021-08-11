@@ -3,7 +3,15 @@ A simple script that retrieves text from clipboard (a.k.a the CTRL+C boi) and tr
 It automatically detects the languange from which you want to translate.
 
 # Prerequisites
-Python 3+
+Before starting the script, you need to install the following external modules through CLI (Windows/Linux/Mac):
+* `pip3 install pyperclip`
+* `pip3 install translators`
+* `pip3 install translate`
+
+More briefly, just run:
+* `pip3 install -r requirements.txt`
+
+To run the script, `cd` into the folder and `python3 main.py`.
 
 # Usage
 It is really time-saving when you assign a keyboard shortcut to it. To do so, create a shortcut of the script, right-click it and give it your preferred keyboard shortcut.  
