@@ -2,7 +2,6 @@
 
 [![MIT License](https://img.shields.io/github/license/drew458/pizza-translator)](https://opensource.org/licenses/MIT)
 
-## Description
 A simple script that retrieves text from clipboard (a.k.a the CTRL+C boi) and translates it in Italian.  
 It automatically detects the languange from which you want to translate.
 
